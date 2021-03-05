@@ -1,0 +1,22 @@
+/* Entry header */
+.entry-header {
+	margin-bottom: 2rem;
+}
+h1 {
+	margin-bottom: .5rem;
+}
+
+/* Entry content */
+.entry-content p,
+.entry-content ul {
+	font-size: 1.25rem;
+	font-family: Georgia, Times, serif;
+}
+blockquote {
+	font-style: italic;
+}
+
+/* Comments */
+.utterances {
+	margin-top: 3rem;
+}

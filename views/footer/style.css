@@ -1,0 +1,7 @@
+.footer {
+	margin-top: 3rem;
+	padding: 1rem 0;
+	border-top: 1px solid var(--b-line);
+	font-size: .875rem;
+	text-align: center;
+}

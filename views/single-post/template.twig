@@ -1,0 +1,21 @@
+{% include 'header' %}
+
+<article>
+	<header class="entry-header">
+		<h1>{{ post.title }}</h1>
+		<time>{{ post.date | date( 'F j, Y' ) }}</time>
+	</header>
+	<div class="entry-content">
+		{{ mb.wpautop( post.content ) }}
+	</div>
+</article>
+
+<script src="https://utteranc.es/client.js"
+        repo="rilwis/deluxeblogtips"
+        issue-term="pathname"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
+
+{% include 'footer' %}

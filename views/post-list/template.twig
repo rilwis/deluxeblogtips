@@ -1,0 +1,10 @@
+<ul class="posts">
+	{% for post in query.posts %}
+		<li>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+			<time>{{ post.date | date( 'd/m/y' ) }}</time>
+		</li>
+	{% endfor %}
+</ul>
+
+{{ mb.get_the_posts_navigation() }}

@@ -1,0 +1,1 @@
+document.querySelector( '.search' ).addEventListener( 'click', () =>  document.body.classList.toggle( 'open' ) );

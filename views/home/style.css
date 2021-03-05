@@ -1,0 +1,17 @@
+/* Intro */
+.intro {
+	font-family: Georgia, Times, serif;
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+}
+
+/* Posts */
+.recent h2 {
+	font: inherit;
+	opacity: .5;
+	text-transform: uppercase;
+	letter-spacing: .05rem;
+	border-bottom: 1px solid var(--b-line);
+	padding-bottom: 1rem;
+	margin-bottom: 0;
+}

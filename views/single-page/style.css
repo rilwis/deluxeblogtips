@@ -1,0 +1,14 @@
+/* Entry header */
+h1 {
+	margin-bottom: 2rem;
+}
+
+/* Entry content */
+.entry-content p,
+.entry-content ul {
+	font-size: 1.25rem;
+	font-family: Georgia, Times, serif;
+}
+blockquote {
+	font-style: italic;
+}

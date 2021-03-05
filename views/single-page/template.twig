@@ -1,0 +1,10 @@
+{% include 'header' %}
+
+<article>
+	<h1>{{ post.title }}</h1>
+	<div class="entry-content">
+		{{ mb.wpautop( post.content ) }}
+	</div>
+</article>
+
+{% include 'footer' %}
